@@ -6,7 +6,8 @@ variable subnet_id 						 {default=""}
 variable instance_type 				 {default=""}
 variable private_ip 					 {default=""}
 variable az								     {default=""}
-variable security_group_id 		 {default=""} ## to do list 
+## to do list sg_id
+variable security_group_id 		 {default=""}
 variable iam_instance_profile  {default=""}
 variable associate_public_ip	 {default="False"}
 variable environment_tag 			 {default=""}
